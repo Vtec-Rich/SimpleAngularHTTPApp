@@ -1,0 +1,37 @@
+$bold: 700;
+$h3fontsize: 18px;
+$borderColour: #eee;
+
+/* custom styles */
+html, body { font-family: 'Lato', Arial, sans-serif; }
+.hiddenEl {display:none;}
+.text-center {text-align:center;}
+.bold {font-weight:$bold;}
+.suave {font-style:italic;}
+.btn-primary { margin-bottom:5px; }
+.container {
+	margin-bottom:30px;
+}
+.h2, .h3, h2, h3 {
+    margin-top: 0px;
+}
+.h3, h3 {
+    font-size: $h3fontsize;
+}
+ul.cityList {
+	padding:0;
+	li {
+		list-style: none;
+    	display: inline-block;
+	    padding: 15px;
+	    width: 33%;
+	    min-width: 300px;
+	}
+}
+.well {
+	h3 {
+		padding-bottom: 9px;
+    	margin: 0 0 10px;
+    	border-bottom: 1px solid $borderColour;
+	}
+}

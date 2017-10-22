@@ -1,0 +1,21 @@
+{
+  "name": "SimpleAngularHTTPExample",
+  "version": "1.0.0",
+  "description": "Simple Angular HTTP Example",
+  "main": "custom.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "R. Warmingham",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "bower": "^1.7.9"
+  }
+}
