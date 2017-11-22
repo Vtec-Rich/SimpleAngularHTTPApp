@@ -1,6 +1,6 @@
-var app = angular.module('BackBaseWeatherApp', []);
+var app = angular.module('WeatherApp', []);
 
-app.controller('BackBaseWeatherController', function( $scope, $http ) {
+app.controller('WeatherController', function( $scope, $http ) {
 
 	$scope.cities = [
 	    {
